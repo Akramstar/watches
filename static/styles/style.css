@@ -19,12 +19,13 @@ nav .navbar-nav .nav-item {
 
 nav .navbar-nav .nav-item:hover{
     background-color: rgb(255, 220, 220);
-    
+    padding-left: 10px;
     transform: scale(1.1);
 }
 
 .dropdown-menu a:hover {
     background-color: rgb(255, 220, 220);
+    padding-left: 3px;
 }
 
 .dropdown-menu a{
@@ -117,12 +118,20 @@ nav .navbar-nav .nav-item:hover{
 
 /* Section-4 */
 .section-4, .section-5 {
-    width: 100%;
+    position: relative;
     overflow: hidden;
 }
 .section-4-right, .section-5{
-    width: fit-content;
+    
     overflow: hidden;
+}
+
+
+.section-4-right img {
+    position: absolute;
+}
+.section-5-right img {
+    position: absolute;
 }
 
 /* End of Section-4 */
