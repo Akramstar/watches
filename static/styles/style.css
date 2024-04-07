@@ -52,6 +52,7 @@ nav .navbar-nav .nav-item:hover{
 .section-1-product-1:hover {
     transform: scale(1.1);
     padding-bottom: 25px;
+    padding-top: 25px;
 }
 /* End Header-1  */
 
@@ -173,6 +174,9 @@ nav .navbar-nav .nav-item:hover{
 
     .footer-left p {
         font-size: 13px;
+    }
+    .section-1-right img{
+        width: 200px;
     }
   }
 /* End Responsive */
