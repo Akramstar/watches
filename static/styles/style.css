@@ -117,9 +117,8 @@ nav .navbar-nav .nav-item:hover{
 /* End Section-3 */
 
 /* Section-4 */
-.section-4, .section-5 {
+.section-4-right .section-5-right {
     position: relative;
-    overflow: hidden;
 }
 .section-4-right, .section-5{
     
@@ -127,9 +126,9 @@ nav .navbar-nav .nav-item:hover{
 }
 
 
-.section-4-right img {
+/* .section-4-right img {
     position: absolute;
-}
+} */
 .section-5-right img {
     position: absolute;
 }
