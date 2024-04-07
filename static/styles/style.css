@@ -1,5 +1,7 @@
 /* Global */
-
+body {
+    overflow-x: hidden;
+}
 
 
 
@@ -119,7 +121,7 @@ nav .navbar-nav .nav-item:hover{
     overflow: hidden;
 }
 .section-4-right, .section-5{
-    width: 100%;
+    width: fit-content;
     overflow: hidden;
 }
 
