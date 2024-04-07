@@ -124,14 +124,16 @@ nav .navbar-nav .nav-item:hover{
     
     overflow: hidden;
 }
+/* footer */
+.footer-right i {
+    font-size: 2rem;
+}
 
-
+/* end footer */
 /* .section-4-right img {
     position: absolute;
 } */
-.section-5-right img {
-    position: absolute;
-}
+
 
 /* End of Section-4 */
 
@@ -142,3 +144,35 @@ nav .navbar-nav .nav-item:hover{
 }
 
 /* end section07 */
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+    h2 {
+      font-size: 30px!important;
+    }
+    .section-5-right img ,.section-4-right img {
+        width: 250px;
+    }
+    .footer-img {
+        width: 70px;
+    }
+    .secion-7 {
+        font-size: 15px;
+    }
+    .footer-links h4{
+        font-size: 15px;
+    }
+    .footer-right i {
+        font-size: 20px;
+    }
+
+    .footer-left{
+        flex-wrap: nowrap;
+    }
+
+    .footer-left p {
+        font-size: 13px;
+    }
+  }
+/* End Responsive */
